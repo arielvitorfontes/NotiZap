@@ -6,4 +6,5 @@ public class Recipient
     public string Name { get; set; }
     public string PhoneNumber { get; set; }
     public int IdAlert { get; set; }
+    public Alert? Alert { get; set; }
 }
